@@ -30,3 +30,25 @@ body {
     }
 
 /* common sryles end */
+
+/* Header section */
+
+
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+    .header-link:hover,
+    .header-link:focus {
+       color: #2196F3;
+    }
+
+
+
+/* Hero section */
+    .hero {
+        background-color: #2F303A;
+    }
