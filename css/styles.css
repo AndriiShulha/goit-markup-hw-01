@@ -1,10 +1,32 @@
-/* .header-link {
-    text-align: right;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-indent: 10px;
-    line-height: 20px;
-    letter-spacing: 3px;
-    word-spacing: 30px;
-    text-shadow: 3px 5px 1px rgba(0, 0, 0, 0.6);
-} */
+:root {
+    /* fonts */
+    --main-font: "Roboto";
+    --secondary-font: "Raleway";
+
+    /* text colors */
+
+    /* bg-colors */
+
+    /* others */
+}
+
+
+
+body {
+    font-family: "Roboto", "Raleway"; sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+/* common styles start */
+    .link {
+        text-decoration: none;
+
+    }
+
+    .list {
+        list-style: none;
+    }
+
+/* common sryles end */
