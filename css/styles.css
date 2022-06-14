@@ -144,3 +144,8 @@ body {
         letter-spacing: 0.03em;
         color: #2196F3;
     }
+     
+     .link:hover,
+     .link:focus {
+        color: var(--accent-txt-color);
+     }
