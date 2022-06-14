@@ -123,6 +123,33 @@ body {
         background-color:#2196F3;
     }
 
+
+    .benefits-about {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+        
+            color: #212121;
+    }
+
+    .benefits-description {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.71;
+            letter-spacing: 0.03em;
+            color: #757575;
+    }
+
+    .about-us {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 42px;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: #212121;
+    }
   
 
     .team {
@@ -148,4 +175,8 @@ body {
      .link:hover,
      .link:focus {
         color: var(--accent-txt-color);
+     }
+
+     .footer-logo-ft {
+        color: #FFFFFF;
      }
