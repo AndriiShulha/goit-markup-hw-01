@@ -145,7 +145,7 @@ body {
     .about-us {
             font-weight: 700;
             font-size: 36px;
-            line-height: 42px;
+            line-height: 1.17;
             text-align: center;
             letter-spacing: 0.03em;
             color: #212121;
@@ -156,6 +156,31 @@ body {
         background: #F5F4FA;
     }
 
+        .team-us {
+             color: #212121;
+        }
+
+        .team-employees {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.19;
+            text-align: center;
+            letter-spacing: 0.03em;
+
+            color: #212121;
+        }
+
+
+            .place-work {
+                
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 1.19;
+                text-align: center;
+                letter-spacing: 0.03em;
+
+                color: #757575;
+            }
 
 
 
