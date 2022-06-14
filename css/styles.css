@@ -108,7 +108,25 @@ body {
         color:var(--accent-txt-color)
     }
 
+
+    .section-about {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        
+        color: #212121;
+    }
     
+        .section-abt {
+            font-weight: 400;
+                font-size: 16px;
+                line-height: 1.89;
+                letter-spacing: 0.03em;
+            
+                color: #757575;
+        }
+
     .uppertitle {
       font-weight: 900;
       font-size: 44px;
