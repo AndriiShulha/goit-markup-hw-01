@@ -4,6 +4,10 @@
     --secondary-font: "Raleway";
 
     /* text colors */
+    --accent-txt-color: #2196F3;
+    --black-color: #212121;
+    --main-gray-btn: #F5F4FA;
+
 
     /* bg-colors */
 
@@ -43,7 +47,7 @@ body {
 }
     .header-link:hover,
     .header-link:focus {
-       color: #2196F3;
+        color: var(--accent-txt-color);
     }
 
     .header-contact {
@@ -54,6 +58,17 @@ body {
         color: #757575;
     }
 
+    .header-logo {
+        font-weight: 700;
+            font-size: 26px;
+            line-height: 1.19;
+            letter-spacing: 0.03em;
+            color: #2196F3;
+    }
+
+        .logo {
+            color: #000000;
+        }
 
 
 /* Hero section */
@@ -75,6 +90,24 @@ body {
         
     }
 
+    .button-list {
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: left;
+        letter-spacing: 0.03em;
+        color: var(--main-gray-btn);
+
+        cursor: pointer;
+    }
+
+    .button-list:hover,
+    .button-list:focus {
+        background-color: var(--main-gray-btn)
+        color:var(--accent-txt-color)
+    }
+
     
     .uppertitle {
       font-weight: 900;
@@ -91,3 +124,23 @@ body {
     }
 
   
+
+    .team {
+        background: #F5F4FA;
+    }
+
+
+
+
+
+    .footer {
+        background-color: #2F303A;
+    }
+
+    .footer-logo {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: #2196F3;
+    }
